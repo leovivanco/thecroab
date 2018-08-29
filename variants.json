@@ -1,0 +1,12 @@
+[
+	{
+	    "name": "variant",
+    	"scriptOrder" : [
+      		"_sendError:global",
+      		"_prepend:global",
+      		"_loaders:global",
+	      	"main",
+	      	"_append:global"
+	    ]
+	}
+]

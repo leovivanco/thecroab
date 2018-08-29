@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true,
+        "es6": true
+    },
+    "globals": {
+        "App": true,
+        "dom": false,
+        "css": false,
+        "actions": false,
+        "Money": true,
+        "when": true,
+        "$": true,
+        "setImage": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-console": 0,
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

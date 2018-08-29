@@ -1,0 +1,45 @@
+{
+  "name": "IDTeste",
+  "version": "1.0.0",
+  "description": "Teste do Cliente - Nome do teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch variants.json --exec gulp dev",
+    "dev:actions": "gulp dev:actions",
+    "deploy": "gulp",
+    "deploy:actions": "gulp actions:deploy"
+  },
+  "keywords": [
+    "Cliente",
+    "ID do teste",
+    "Variante"
+  ],
+  "author": "Desenvolvedor do teste",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "eslint": "^3.4.0",
+    "eslint-plugin-html": "^1.5.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.7",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-inline-source": "^3.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-remove-empty-lines": "0.0.4",
+    "gulp-remove-logging": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-comments": "^2.4.3",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-uglifyjs": "^0.6.2",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0"
+  }
+}

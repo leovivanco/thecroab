@@ -1,0 +1,12 @@
+{
+  "PATHS": {
+    "actions": {
+      "src": "./src/metricas/*.js",
+      "dest": "./dist/metricas/"
+    },
+    "images": {
+      "src": "./src/imagens/**/*",
+      "dest": "./dist/imagens/"
+    }
+  }
+}
